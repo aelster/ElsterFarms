@@ -3,11 +3,11 @@
 function HideShow() {
 	var e = document.getElementById('hide-show');
 	var val;
-	if( e.value == 'Hide' ) {
-		e.value = 'Show';
+	if( e.value == 'Click to hide the overlay' ) {
+		e.value = 'Click to show the overlay';
 		val = 'none';
 	} else {
-		e.value = 'Hide';
+		e.value = 'Click to hide the overlay';
 		val = 'block';
 	}
 	var l = document.getElementsByTagName('li');
